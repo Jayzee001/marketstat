@@ -1,0 +1,347 @@
+.contain{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height:100%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* background-color: #fff; */
+    margin: 4rem;
+    gap:1rem;
+    display: flex;
+
+}
+#time, #period{
+    height:2rem;
+    width:80%;
+    border: none;
+}
+img{
+    height:5rem;
+}
+input{
+    height: 3rem;
+    width:80%;
+    outline:none;
+    border:none;
+    gap:1rem
+}
+.feeds{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+}
+.popu{
+    transition: all 0.5s ease-out;
+    height: 5rem;
+    width:4rem;
+    background-color:#bbec0a
+    /* margin-left: -100px; */
+}
+.sign{
+    margin-left: -5px;
+    font-size: 2rem;
+}
+
+button{
+    width: 2.5rem;
+    background-color: #bbec0a;
+    border: none;
+    font-size: 2rem;
+        transition: all 0.5s ease-out;
+            margin-left: -32px;
+}
+button:hover{
+    color: #fff;
+        transition: all 0.5s ease-in;
+        margin-left: 10px;
+}
+.container{
+    height:100%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.sear{
+    height:100%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.seari {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+label{
+    margin-bottom:0px;
+}
+.search_btn{
+    height:3rem;
+    width:6rem;
+    border-radius: 10px;
+    background-color: #bbec0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        transition: all 0.5s ease-out;
+        margin-bottom: 2rem;
+        animation: bn13bouncy 5s infinite linear;
+        position: relative;
+}
+.search_btn:hover {
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+        transform: scale(1.09);
+        color: #fff;
+        box-shadow: 10px 05px 10px rgb(224, 235, 179);
+        cursor: pointer;
+}
+@keyframes bn13bouncy {
+    0% {
+        top: 0em;
+    }
+
+    40% {
+        top: 0em;
+    }
+
+    43% {
+        top: -0.9em;
+    }
+
+    46% {
+        top: 0em;
+    }
+
+    48% {
+        top: -0.4em;
+    }
+
+    50% {
+        top: 0em;
+    }
+
+    100% {
+        top: 0em;
+    }
+}
+.feed{
+    height: 100%;
+    width: 80%;
+    background:#fff;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+li{
+    list-style: none;
+}
+.download{
+    height:2rem;
+    width: 7rem;
+    font-size: 12px;
+    margin: 0;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 360px),(max-width: 414px),(max-width:540px) {
+.contain {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        /* background-color: #fff; */
+        margin: 4rem;
+    }
+
+    img {
+        height: 3rem;
+    }
+
+    input {
+        height: 3rem;
+        width: 80%;
+        outline: none;
+        border: none;
+        gap: 1rem;
+        border-radius: 1rem;
+    }
+
+    .feeds {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-grow: inherit;
+    }
+
+    .popu {
+        transition: all 0.5s ease-out;
+        height: 5rem;
+        width: 4rem;
+        background-color: #bbec0a
+    }
+
+    .sign {
+        margin-left: -5px;
+        font-size: 2rem;
+    }
+
+    button {
+        width: 2.5rem;
+        background-color: #bbec0a;
+        border: none;
+        font-size: 2rem;
+        transition: all 0.5s ease-out;
+        margin-left: -10px;
+    }
+
+    button:hover {
+        color: #fff;
+        transition: all 0.5s ease-in;
+        margin-left: 10px;
+    }
+
+    .container {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+h1{
+    font-size: 1.5em;
+}
+    .sear {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .seari {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    label {
+        margin-bottom: 0px;
+    }
+
+    .search_btn {
+        height: 3rem;
+        width: 6rem;
+        border-radius: 10px;
+        background-color: #bbec0a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-out;
+        margin-bottom: 2rem;
+        animation: bn13bouncy 5s infinite linear;
+        position: relative;
+    }
+
+    .search_btn:hover {
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+        transform: scale(1.09);
+        color: #fff;
+        box-shadow: 10px 05px 10px rgb(224, 235, 179);
+    }
+        #time,
+        #period {
+            height: 2rem;
+            width: 80%;
+            border: none;
+        }
+
+    @keyframes bn13bouncy {
+        0% {
+            top: 0em;
+        }
+
+        40% {
+            top: 0em;
+        }
+
+        43% {
+            top: -0.9em;
+        }
+
+        46% {
+            top: 0em;
+        }
+
+        48% {
+            top: -0.4em;
+        }
+
+        50% {
+            top: 0em;
+        }
+
+        100% {
+            top: 0em;
+        }
+    }
+
+    .feed {
+        height: 100%;
+        width: 80%;
+        background: #fff;
+        border-radius: 18px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 12px;
+        margin-bottom: 2rem;
+    }
+
+}
